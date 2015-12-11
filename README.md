@@ -1,6 +1,6 @@
 **libreoffice-fresh-kalahari**
 ------------------------------
-**Faenza like icon theme for LibreOffice**
+**Kalahari icon theme set for LibreOffice Fresh RPM 5.0**
 
 **CREDITS**
 
