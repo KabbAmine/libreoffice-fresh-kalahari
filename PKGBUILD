@@ -4,18 +4,18 @@ pkgname="libreoffice-fresh-kalahari"
 pkgver=0.4.6
 pkgrel=1
 _lover=5.0
-pkgdesc="Faenza like icon theme for LibreOffice"
+pkgdesc="Kalahari icon themes pack for LibreOffice"
 arch=('any')
 url="https://github.com/FadeMind/${pkgname}"
 license=('custom:MPL2')
-#depends=('libreoffice-fresh-rpm')
-source=("images_faenza.zip::${url}/raw/master/images_faenza.zip"
-        "images_faenza_dark.zip::${url}/raw/master/images_faenza_dark.zip"
-        "images_Elementary.zip:${url}/raw/master/images_Elementary.zip"
-        "images_kalahari.zip:${url}/raw/master/images_kalahari.zip"
-        "images_manjaro.zip:${url}/raw/master/images_manjaro.zip"
+depends=('libreoffice-fresh-rpm')
+source=("images_faenza.zip::https://raw.githubusercontent.com/FadeMind/${pkgname}/master/images_faenza.zip"
+        "images_faenza_dark.zip::https://raw.githubusercontent.com/FadeMind/${pkgname}/master/images_faenza_dark.zip"
+        "images_elementary.zip:https://raw.githubusercontent.com/FadeMind/${pkgname}/master/images_elementary.zip"
+        "images_kalahari.zip:https://raw.githubusercontent.com/FadeMind/${pkgname}/master/images_kalahari.zip"
+        "images_manjaro.zip:https://raw.githubusercontent.com/FadeMind/${pkgname}/master/images_manjaro.zip"
         "LICENSE::https://www.mozilla.org/MPL/2.0/index.txt")
-noextract=(images_{faenza{,_dark},Elementary,kalahari,manjaro}.zip)
+noextract=(images_{faenza{,_dark},elementary,kalahari,manjaro}.zip)
 sha256sums=('7ded91512511ed104ac9562894fbdc8b33a6b3bd230759045de1eee0fe4f598d'
             '6d53c894683213cd555686c013695ade334afa10146edc1823ef235289055d0e'
             'b748091574e2d1f4fc3fe8322831b09e75a53a5f04a3b82a888f954a2395dc7c'
