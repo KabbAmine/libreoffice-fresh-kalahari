@@ -1,6 +1,6 @@
 **libreoffice-fresh-kalahari**
 ------------------------------
-**Kalahari icon theme set for LibreOffice Fresh RPM 5.0**
+**Kalahari icon themes for libreoffice-fresh-rpm**
 
 **CREDITS**
 
